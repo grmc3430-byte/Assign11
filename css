@@ -13,8 +13,14 @@ div#formcol1 {
 	float:left;	
 	width: 100%;
 }
-
-
+label {
+margin-right: .3em;
+width: 6.3em; 
+display: inline-block; 
+}
+#formcol1 li {
+list-style:none;
+}
 
 /* end of form css */
 	
