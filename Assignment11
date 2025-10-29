@@ -22,16 +22,17 @@
 <div id="formcol1">
 
 
- <p>2020 Proposal Form</p>
- <p>Speaker Info</p>
+ <h1>2020 Proposal Form</h1>
+ <fieldset>
+ <legend>Speaker Info</legend>
  <ul>
 	<li>
-        <span>First Name:</span>
+        <label for="fstspkr1">First Name:</label>
         <input id="fstspkr1" name="fstspkr1" type="text" class="reqfield" />
     </li>
 
 
- 	<li><span>Last Name:</span>
+ 		<label for="lstname1">Last Name:</label>
         <input id="lstname1" name="lstname1" type="text" class="reqfield"  />
 </li>
 <li>
@@ -49,12 +50,14 @@
 <li>
 	<span>Address:</span>
 	<input id="address1" class="reqfield" name="address1" type="text" />
+<fieldset/>
 </li>
 </ul>
 
 </div> <!-- end of formcol1 div -->
     <div id="multchoice">
-    
+    <fieldset>
+	<legend>Type of Presentation</legend>
     <p>Type of Presentation</p>
     
         <p><span>Lecture:</span>	<span><input value="1" id="TypeofPres_lec" name="p-type" type="radio" /> 
