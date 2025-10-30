@@ -24,14 +24,6 @@ label {
 	list-style:none;
 }
 
-ul {
-	border: 5px solid blue;
-}
-
-h1, strong {
-	color: red;
-}
-
 select:focus, select:active, input:focus, input:active, input:focus + label,
 input:active + label, label[for]:focus, label[for]:active {
 color: #FFF !important;
