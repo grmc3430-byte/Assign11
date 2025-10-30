@@ -23,5 +23,12 @@ label {
 	list-style:none;
 }
 
+ul {
+	border: 5px solid blue;
+}
+
+h1, strong {
+	color: red;
+}
 /* end of form css */
 	
