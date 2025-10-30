@@ -17,6 +17,7 @@ label {
 	margin-right: .3em;
 	width: 6.3em;
 	display: inline-block;
+	text-align: right;
 }
 
 #formcol1 li {
